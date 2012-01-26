@@ -25,7 +25,7 @@ Dancer::Plugin::Scoped - Allows to set params variables in scope of route handle
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
@@ -48,7 +48,10 @@ scoped
 
 =head1 SUBROUTINES/METHODS
 
-=head2 function1
+=head2 scoped
+
+A replacement for sub in route handler definition. It sets variables passed in params hash which
+is accessible via our declarations.
 
 =cut
 
